@@ -58,7 +58,7 @@
 
 .hamburgerMenu{
     position:absolute;
-    background-color: rgb(210,130,245);
+    background-color: rgba(210,130,245);
     width: 75vw;
     height: 100vh;
     top: 10vh;
@@ -85,12 +85,11 @@ opacity: 1;
 .hamburgerMenu > button {
     width: 100%;
     height: 7.5%;
-    margin-bottom: 2.5%;
     padding: 0;
     color: white;
     background-color: transparent;
     border: none;
-    font-size: clamp(15px, 8vw , 40px);
+    font-size: clamp(15px, 7.5vw , 40px);
     text-align:right;
     font-family: "druk_wide_boldbold";
     font-weight:bolder;
