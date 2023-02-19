@@ -1,14 +1,19 @@
 html {
-  background-color: rgb(26,30,77); 
+  background-color: rgb(25,25,75); 
   color:#fff;
-  overflow: hidden;
+
 }
 body{
   padding: 0;
   margin: 0;
-  overflow: hidden;
+ font-family:monospace;
+ font-size: 1rem;
 }
-
+.WebsiteContent{
+  margin-top: 15vh;
+  padding: 0px 5vw 0px 5vw;
+  
+}
 @font-face {
   font-family: 'druk_wide_boldbold';
   src: url('../Fonts/webfontkit-20230219-025603/fontsfree-net-druk-wide-bold-webfont.woff2') format('woff2'),

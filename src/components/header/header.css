@@ -3,14 +3,17 @@
 .headerContainer{
     width: 100%;
     height: 10vh;
-    
+    position: fixed;
+    background-color:  rgb(25,25,75); 
+    top: 0;
+    z-index: 5;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
     padding: 0px 5vw 0px 5vw;
-    overflow: hidden;
+   
 
 }
 
@@ -30,7 +33,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    z-index: 2;
+    z-index: 5;
 }
 
 .hamburgerButton > div {
@@ -55,27 +58,41 @@
 
 .hamburgerMenu{
     position:absolute;
-    background-color: red;
-    width: 80%;
-    height: 100%;
-    padding: 15vw 0px 0px 0px;
-    max-width: 0;
-
-    opacity: 0;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    transform: translateX(101%);
+    background-color: rgb(210,130,245);
+    width: 75vw;
+    height: 100vh;
+    top: 10vh;
+    box-sizing: border-box;
+    right: -75vw;
     transition: 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 5vh 5vw 5vh 5vw;
+
+
+
 }
 
 .hamburgerMenu.show{
-    transform: translateX(0%);
-    opacity: 1;
-    max-width: 80%;
-
+transform: translate(-75vw);
+opacity: 1;
 }
 
+.hamburgerMenu > button {
+    width: 75%;
+    height: 5%;
+    margin-bottom: 5%;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: clamp(15px, 7vw , 40px);
+    text-align: end;
+    font-family: 'druk_wide_boldbold';
+}
 
 
 }
