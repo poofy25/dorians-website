@@ -8,7 +8,7 @@ function HeaderComponent() {
   const navigate = useNavigate();
 
   const navigateHome = () => {
-    navigate('/');
+    navigate('/home');
   };
 
   const navigateToContacts = () => {
