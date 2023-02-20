@@ -14,7 +14,8 @@
     padding: 0px 5vw 0px 5vw;
    background-image: url('/src/assets/headerWave.svg');
    background-position:top;
-   background-size: cover;
+   background-size: 100vw , 10vh;
+   background-repeat: no-repeat;
 
 }
 
@@ -61,7 +62,7 @@
     position:absolute;
     background-color: rgb(50, 50, 125);
     background-image: url('/src/assets/mobileMenuBlur.svg');
-    background-position:right;
+    background-position:center;
     background-size:cover;
     border-left: 1px double rgb(25, 25, 75);
     width: 65vw;
