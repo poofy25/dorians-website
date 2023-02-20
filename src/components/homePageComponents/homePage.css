@@ -1,0 +1,21 @@
+.homePageGrid{
+
+    display: grid;
+    gap: 5vh;
+
+}
+.GridCard{
+    width: 100%;
+    aspect-ratio: 1;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: black;
+}
+.GridCard > img {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    z-index: -1;
+}
