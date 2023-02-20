@@ -33,10 +33,10 @@ function HeaderComponent() {
         <div className="hamburgerButtonRow3"></div>
     </button>
     <div className="hamburgerMenu">
-       <button>Work</button>
-       <button>Events</button>
-       <button>About</button>
-       <button>Contact</button>
+       <button>WORK</button>
+       <button>EVENTS</button>
+       <button>ABOUT</button>
+       <button>CONTACT</button>
     </div>
     </header>
   )

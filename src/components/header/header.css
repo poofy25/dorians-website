@@ -4,7 +4,6 @@
     width: 100%;
     height: 10vh;
     position: fixed;
-    background-color:  rgb(25,25,75); 
     top: 0;
     z-index: 5;
     display: flex;
@@ -13,7 +12,9 @@
     justify-content: space-between;
     box-sizing: border-box;
     padding: 0px 5vw 0px 5vw;
-   
+   background-image: url('/src/assets/headerWave.svg');
+   background-position:top;
+   background-size: cover;
 
 }
 
@@ -58,12 +59,16 @@
 
 .hamburgerMenu{
     position:absolute;
-    background-color: #754da0;
-    width: 75vw;
+    background-color: rgb(50, 50, 125);
+    background-image: url('/src/assets/mobileMenuBlur.svg');
+    background-position:right;
+    background-size:cover;
+    border-left: 1px double rgb(25, 25, 75);
+    width: 65vw;
     height: 100vh;
     top: 10vh;
     box-sizing: border-box;
-    right: -75vw;
+    right: -65vw;
     transition: 0.5s ease-in-out;
     opacity: 0;
     z-index: 0;
@@ -78,7 +83,7 @@
 }
 
 .hamburgerMenu.show{
-transform: translate(-75vw);
+transform: translate(-65vw);
 opacity: 1;
 }
 
@@ -89,10 +94,15 @@ opacity: 1;
     color: white;
     background-color: transparent;
     border: none;
-    font-size: clamp(15px, 7.5vw , 40px);
+    border-top: 2px solid rgba(25, 25, 75,0.5);
+    
+    font-size: clamp(15px, 6vw , 40px);
     text-align:right;
     font-family: "druk_wide_boldbold";
     font-weight:bolder;
+}
+.hamburgerMenu > button:last-child {
+    border-bottom: 2px solid rgba(25, 25, 75 , 0.5);
 }
 
 
