@@ -13,14 +13,14 @@ function HeaderComponent() {
 
   const navigateToContacts = () => {
 
-    navigate('/dorians-website/contact');
+    navigate('/contact');
   };
   
   const navigateWork = () => {
-    navigate('/dorians-website/work');
+    navigate('/work');
   };
   const navigateAbout = () => {
-    navigate('/dorians-website/about');
+    navigate('/about');
   };
 
     let hasOpened = false;

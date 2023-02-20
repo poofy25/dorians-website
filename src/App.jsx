@@ -14,12 +14,10 @@ function App() {
 
 
      <Route index element={<HomePage/>}   />
-    
-     <Route path='/dorians-website' element={<HomePage/>}   />
-     <Route path='/dorians-website/home' element={<HomePage/>}   />
-     <Route path='/dorians-website/work' element={<WorkPage/>}   />
-     <Route path='/dorians-website/about' element={<AboutPage/>}   />
-     <Route path='/dorians-website/contact' element={<ContactPage/>}   />
+     <Route path='/home' element={<HomePage/>}   />
+     <Route path='/work' element={<WorkPage/>}   />
+     <Route path='/about' element={<AboutPage/>}   />
+     <Route path='/contact' element={<ContactPage/>}   />
 
 
     </Routes>
