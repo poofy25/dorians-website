@@ -110,7 +110,7 @@ opacity: 1;
     border: none;
     border-top: 2px solid rgba(25, 25, 75,0.5);
     
-    font-size: clamp(15px, 6vw , 40px);
+    font-size: clamp(15px, 5vw , 40px);
     text-align:right;
     font-family: "druk_wide_boldbold";
     font-weight:bolder;

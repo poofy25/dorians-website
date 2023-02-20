@@ -1,10 +1,27 @@
 import { useState } from 'react'
-
+import { useNavigate } from 'react-router-dom';
 import './header.css'
+
 
 function HeaderComponent() {
 
-    
+  const navigate = useNavigate();
+
+  const navigateHome = () => {
+    navigate('/');
+  };
+
+  const navigateToContacts = () => {
+
+    navigate('/dorians-website/contact');
+  };
+  
+  const navigateWork = () => {
+    navigate('/dorians-website/work');
+  };
+  const navigateAbout = () => {
+    navigate('/dorians-website/about');
+  };
 
     let hasOpened = false;
   const hamburgerHandler = () => {
@@ -33,10 +50,10 @@ function HeaderComponent() {
         <div className="hamburgerButtonRow3"></div>
     </button>
     <div className="hamburgerMenu">
-       <button>WORK</button>
-       <button>EVENTS</button>
-       <button>ABOUT</button>
-       <button>CONTACT</button>
+       <button onClick={navigateHome} >HOME</button>
+       <button onClick={navigateWork}>WORK</button>
+       <button onClick={navigateAbout}>ABOUT</button>
+       <button onClick={navigateToContacts}  >CONTACT</button>
     </div>
     </header>
   )

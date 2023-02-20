@@ -1,52 +1,29 @@
-import { useState } from 'react'
-import './App.css'
 
-import HeaderComponent from './components/header/headerComp.jsx'
+import { BrowserRouter , Routes , Route } from 'react-router-dom';
+import HomePage from './pages/home.jsx';
+import WorkPage from './pages/work.jsx';
+import ContactPage from './pages/contact.jsx';
+import AboutPage from './pages/about.jsx';
 
 function App() {
 
   return (
     <>
-    <HeaderComponent/>
-    <div className="WebsiteContent">
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    <p>Website content</p>
-    </div>
+    <BrowserRouter>
+    <Routes>
+
+
+     <Route index element={<HomePage/>}   />
     
+     <Route path='/dorians-website' element={<HomePage/>}   />
+     <Route path='/dorians-website/home' element={<HomePage/>}   />
+     <Route path='/dorians-website/work' element={<WorkPage/>}   />
+     <Route path='/dorians-website/about' element={<AboutPage/>}   />
+     <Route path='/dorians-website/contact' element={<ContactPage/>}   />
+
+
+    </Routes>
+    </BrowserRouter>
     </>
   )
 }
