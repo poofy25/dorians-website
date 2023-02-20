@@ -1,5 +1,5 @@
 
-import { BrowserRouter , Routes , Route } from 'react-router-dom';
+import { HashRouter , Routes , Route } from 'react-router-dom';
 import HomePage from './pages/home.jsx';
 import WorkPage from './pages/work.jsx';
 import ContactPage from './pages/contact.jsx';
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
 
 
@@ -23,7 +23,7 @@ function App() {
 
 
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   )
 }
