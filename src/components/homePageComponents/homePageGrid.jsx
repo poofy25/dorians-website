@@ -8,7 +8,7 @@ function HomePageGrid() {
     <div className="homePageGrid">
    
     <div className="GridCard">
-        <img src='src\assets\carlasDreamsPoster.png'/>
+        <img src='/src/assets/headerWave.png'/>
         
         card 1
     </div>
