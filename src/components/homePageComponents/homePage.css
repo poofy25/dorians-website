@@ -11,10 +11,13 @@
     position: relative;
     display: flex;
     align-items: end;
-    justify-content: center;
-    color: black;
+    justify-content: start;
+    color: white;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 10%, rgba(50,50,125,0) 100%);
-   overflow: hidden;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0,0.5);
+
 }
 
 
@@ -24,4 +27,10 @@
     position: absolute;
     z-index: -1;
     
+}
+
+.GridCardName{
+    font-size: clamp(15px , 4vw , 30px);
+    font-family: 'druk_wide_boldbold';
+    margin: 0px 5vw 2.5vh 5vw;
 }
