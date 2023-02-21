@@ -1,6 +1,6 @@
 
 import './footer.css'
-import InstagramIcon from "/src/assets/InstagramIcon.png"
+import InstagramIcon from "/src/assets/instagramIcon.png"
 
 function FooterComponent() {
 
