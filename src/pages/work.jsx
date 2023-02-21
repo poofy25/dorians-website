@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import HeaderComponent from '../components/header/headerComp'
-
+import FooterComponent from '../components/footer/footerComp'
 function WorkPage() {
 
   return (
@@ -12,7 +12,7 @@ function WorkPage() {
     
   
     </div>
-    
+    <FooterComponent/>
     </>
   )
 }

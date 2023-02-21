@@ -1,3 +1,6 @@
+
+@media only screen and (max-width: 767px) {
+
 .homePageGrid{
 
     display: grid;
@@ -36,4 +39,6 @@
     font-size: clamp(15px , 4vw , 30px);
     font-family: 'druk_wide_boldbold';
     margin: 0px 5vw 2.5vh 5vw;
+}
+
 }

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import HeaderComponent from '../components/header/headerComp'
+import FooterComponent from '../components/footer/footerComp'
 import HomePageGrid from '../components/homePageComponents/homePageGrid'
 
 function HomePage() {
@@ -11,7 +12,7 @@ function HomePage() {
     <div className="WebsiteContent">
     <HomePageGrid/>
     </div>
-    
+    <FooterComponent/>
     </>
   )
 }
