@@ -1,6 +1,8 @@
 
 import './homePage.css'
 
+import carlasDreamsPoster from "/src/assets/carlasDreamsPoster.png"
+
 
 function HomePageGrid() {
 
@@ -8,7 +10,7 @@ function HomePageGrid() {
     <div className="homePageGrid">
    
     <div className="GridCard">
-        <img src='/src/assets/headerWave.png'/>
+        <img src={carlasDreamsPoster}/>
         
         card 1
     </div>
