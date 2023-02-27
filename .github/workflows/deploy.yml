@@ -1,4 +1,3 @@
-hubname: Deploy
 
 on:
   push:
