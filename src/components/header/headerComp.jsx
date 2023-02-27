@@ -44,6 +44,16 @@ function HeaderComponent() {
   return (
     <header className="headerContainer">
     <p>LESNIC <br/> DORIAN </p>
+
+    <div className="desktopHeaderButtons">
+      <button onClick={navigateHome}>HOME</button>
+      <button onClick={navigateWork}>WORK</button>
+      <button onClick={navigateAbout}>ABOUT</button>
+      <button onClick={navigateToContacts}>CONTACT</button>
+    </div>
+
+
+
     <button className='hamburgerButton' onClick={hamburgerHandler}>
         <div className="hamburgerButtonRow1"></div>
         <div className="hamburgerButtonRow2"></div>

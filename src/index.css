@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(50, 50, 125); 
+  background-color: #32327d; 
   color:#fff;
   min-height: 100vh;
   position: relative;
@@ -17,6 +17,10 @@ body{
 .WebsiteContent{
   margin-top: 15vh;
   padding: 0px 5vw 0px 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
  
 }
 @font-face {

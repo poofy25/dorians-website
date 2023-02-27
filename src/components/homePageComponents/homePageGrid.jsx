@@ -12,6 +12,19 @@ import puzzleDomnita from "/src/assets/puzzleDomnita.png"
 function HomePageGrid() {
 
   return (
+<div className="homePageContent">
+    <div className="homePageIntroduction">
+    <p>Cele mai bune designuri din Moldova!</p>
+
+    <p>
+        Numele meu este Dorian si sunt un graphic designer.<br/> Mă ocup cu 
+        crearea Logo-urilor, Posterelor, Postărilor si Editări Video.<br/>
+        Cînd nu desenez eu sunt un student, antreprenor si jucător de fotball.<br/>
+        Dacă sunteti interesati de serviciile pe care le ofer, mă puteti contacta aici!
+
+    </p>
+    </div>
+   
     <div className="homePageGrid">
    
     <div className="GridCard">
@@ -45,7 +58,9 @@ function HomePageGrid() {
          <p className='GridCardName'>Domnita Facebook <br/> Post</p>
     </div>
 
+
     </div>
+</div>
   )
 }
 
