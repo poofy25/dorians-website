@@ -8,7 +8,7 @@ function AboutPage() {
     <>
     <HeaderComponent></HeaderComponent>
     <div className="WebsiteContent">
-    <p>THIS IS ABOUT ME</p>
+    <p>Working on...</p>
     
   
     </div>
