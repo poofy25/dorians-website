@@ -16,7 +16,9 @@ import pingpongLogo from "/src/assets/Logos/pingpongLogo.png"
 import voltEnergyLogo from "/src/assets/Logos/voltEnergyLogo.png"
 
 import IntroMetafarm from '/src/assets/Videos/IntroMetafarm.mp4'
+import IntroMetafarmImage from '/src/assets/Videos/IntroMetafarm.png'
 import BlockchainMetafarm from '/src/assets/Videos/BlockchainMetafarm.mp4'
+import BlockchainMetafarmImage from '/src/assets/Videos/BlockchainMetafarm.png'
 
 
 
@@ -71,8 +73,8 @@ export  function WorkPageVidsContainer() {
 
     return (
       <>
-      <WorkExample exampleType="Video" vidSrc={IntroMetafarm}/>
-      <WorkExample exampleType="Video" vidSrc={BlockchainMetafarm}/>
+      <WorkExample exampleType="Video" vidSrc={IntroMetafarm} vidPosterSrc={IntroMetafarmImage}/>
+      <WorkExample exampleType="Video" vidSrc={BlockchainMetafarm} vidPosterSrc={BlockchainMetafarmImage}/>
       </>
     )
   }

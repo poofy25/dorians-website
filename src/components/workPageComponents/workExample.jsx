@@ -25,7 +25,7 @@ if (exampleType !== 'Video'){
 
 if (exampleType === 'Video'){
     return (
-        <video className={classNames} style={{aspectRatio:4/5 , width:'100%' }} preload="auto" controls muted >
+        <video className={classNames} style={{aspectRatio:4/5 , width:'100%' }} poster={props.vidPosterSrc} preload="auto" controls muted >
         <source src={props.vidSrc}/>
         </video>
           )
