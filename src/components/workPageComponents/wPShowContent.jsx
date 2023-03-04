@@ -1,5 +1,25 @@
 
 import './workPage.css'
+import WorkExample from './workExample'
+
+
+
+import puzzleDomnita from "/src/assets/Postari/puzzleDomnita.png"
+import gogosiDomnita from "/src/assets/Postari/gogosiDomnita.png"
+
+
+import carlasDreamsPoster from "/src/assets/Posters/carlasDreamsPoster.png"
+import noapteMuzeurilorPoster from "/src/assets/Posters/noapteMuzeurilorPoster.png"
+
+
+import pingpongLogo from "/src/assets/Logos/pingpongLogo.png"
+import voltEnergyLogo from "/src/assets/Logos/voltEnergyLogo.png"
+
+import IntroMetafarm from '/src/assets/Videos/IntroMetafarm.mp4'
+import BlockchainMetafarm from '/src/assets/Videos/BlockchainMetafarm.mp4'
+
+
+
 
 
 
@@ -9,7 +29,10 @@ export  function WorkPageLogoContainer() {
 
 
   return (
-<div className="div">Logo</div>
+    <>
+    <WorkExample imgSrc={pingpongLogo} mainText={'PingPong Plaza Logo'}/>
+    <WorkExample imgSrc={voltEnergyLogo} mainText={'Volt Energy Logo'}/>
+    </>
   )
 }
 
@@ -19,7 +42,10 @@ export  function WorkPagePostersContainer() {
 
 
     return (
-  <div className="div">Postere</div>
+    <>
+    <WorkExample exampleType="Poster"  imgSrc={noapteMuzeurilorPoster} mainText={'Noapte Muzeurilor Event Poster'}/>
+    <WorkExample exampleType="Poster" imgSrc={carlasDreamsPoster} mainText={'Carlas Dreams Event Poster'}/>
+    </>
     )
   }
 
@@ -30,7 +56,10 @@ export  function WorkPagePostariContainer() {
 
 
     return (
-  <div className="div">Postari</div>
+      <>
+      <WorkExample imgSrc={gogosiDomnita} mainText={'Domnita Facebook Post'}/>
+      <WorkExample imgSrc={puzzleDomnita} mainText={'Puzzle Post for Domnita'}/>
+      </>
     )
   }
 
@@ -41,7 +70,10 @@ export  function WorkPageVidsContainer() {
 
 
     return (
-  <div className="div">Vids</div>
+      <>
+      <WorkExample exampleType="Video" vidSrc={IntroMetafarm}/>
+      <WorkExample exampleType="Video" vidSrc={BlockchainMetafarm}/>
+      </>
     )
   }
   

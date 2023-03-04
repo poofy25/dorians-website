@@ -1,12 +1,12 @@
 
 import './homePage.css'
 
-import carlasDreamsPoster from "/src/assets/carlasDreamsPoster.png"
-import voltEnergyLogo from "/src/assets/voltEnergyLogo.png"
-import gogosiDomnita from "/src/assets/gogosiDomnita.png"
-import noapteMuzeurilorPoster from "/src/assets/noapteMuzeurilorPoster.png"
-import pingpongLogo from "/src/assets/pingpongLogo.png"
-import puzzleDomnita from "/src/assets/puzzleDomnita.png"
+import carlasDreamsPoster from "/src/assets/Posters/carlasDreamsPoster.png"
+import voltEnergyLogo from "/src/assets/Logos/voltEnergyLogo.png"
+import gogosiDomnita from "/src/assets/Postari/gogosiDomnita.png"
+import noapteMuzeurilorPoster from "/src/assets/Posters/noapteMuzeurilorPoster.png"
+import pingpongLogo from "/src/assets/Logos/pingpongLogo.png"
+import puzzleDomnita from "/src/assets/Postari/puzzleDomnita.png"
 
 
 function HomePageGrid() {

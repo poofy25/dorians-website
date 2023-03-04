@@ -17,7 +17,7 @@ const [currentWorkShow , setWorkShow] = useState(WorkPageShowComponents.Logos)
 const btnOnClick = (e) =>{
     let prevClickedBtn = document.querySelector(".workBtnActive")
     if(e.target.classList.contains('workBtnInactive')){
-      setWorkShow(e.target.attributes.show.value)
+      setWorkShow(WorkPageShowComponents[e.target.attributes.show.value])
         e.target.classList.remove('workBtnInactive');
         e.target.classList.add('workBtnActive');
         prevClickedBtn.classList.remove('workBtnActive');
@@ -32,7 +32,7 @@ const btnOnClick = (e) =>{
   <div className="workButtons">
    <button className='workBtnActive'  onClick={btnOnClick} show={'Logos'} >Logouri</button>
    <button  className='workBtnInactive'  onClick={btnOnClick} show={'Postari'}>Postări</button>
-   <button className='workBtnInactive' onClick={btnOnClick} show={'Postere'} >Postere</button>
+   <button className='workBtnInactive' onClick={btnOnClick} show={'Posters'} >Postere</button>
    <button  className='workBtnInactive'  onClick={btnOnClick} show={'Vids'} >Clipuri</button>
   </div>
   
