@@ -34,7 +34,7 @@
     display: grid;
     gap: 2.5vh;
     justify-items: center;
-    width: 90%;
+    width: 100%;
 }
 .GridCard{
     width: 90%;

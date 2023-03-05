@@ -4,16 +4,16 @@ import WorkExample from './workExample'
 
 
 
-import puzzleDomnita from "/src/assets/Postari/puzzleDomnita.png"
-import gogosiDomnita from "/src/assets/Postari/gogosiDomnita.png"
+import martisorDomnita from "/src/assets/Postari/martisorDomnita.png"
+import rasfatateMallDova from "/src/assets/Postari/rasfatateMallDova.png"
 
 
 import carlasDreamsPoster from "/src/assets/Posters/carlasDreamsPoster.png"
 import noapteMuzeurilorPoster from "/src/assets/Posters/noapteMuzeurilorPoster.png"
 
 
-import pingpongLogo from "/src/assets/Logos/pingpongLogo.png"
-import voltEnergyLogo from "/src/assets/Logos/voltEnergyLogo.png"
+import VersuriLogo from "/src/assets/Logos/VersuriLogo.png"
+import FotoLogo from "/src/assets/Logos/FotoLogo.png"
 
 import IntroMetafarm from '/src/assets/Videos/IntroMetafarm.mp4'
 import IntroMetafarmImage from '/src/assets/Videos/IntroMetafarm.png'
@@ -32,8 +32,8 @@ export  function WorkPageLogoContainer() {
 
   return (
     <>
-    <WorkExample imgSrc={pingpongLogo} mainText={'PingPong Plaza Logo'}/>
-    <WorkExample imgSrc={voltEnergyLogo} mainText={'Volt Energy Logo'}/>
+    <WorkExample imgSrc={VersuriLogo} mainText={'Versuri la comanda Logo'}/>
+    <WorkExample imgSrc={FotoLogo} mainText={'Melius Foto Company Logo'}/>
     </>
   )
 }
@@ -59,8 +59,8 @@ export  function WorkPagePostariContainer() {
 
     return (
       <>
-      <WorkExample imgSrc={gogosiDomnita} mainText={'Domnita Facebook Post'}/>
-      <WorkExample imgSrc={puzzleDomnita} mainText={'Puzzle Post for Domnita'}/>
+      <WorkExample imgSrc={martisorDomnita} mainText={'Domnita Facebook Post'}/>
+      <WorkExample imgSrc={rasfatateMallDova} mainText={'Mall Dova Shopping Post'}/>
       </>
     )
   }
