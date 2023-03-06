@@ -4,7 +4,7 @@ import './homePage.css'
 import carlasDreamsPoster from "/src/assets/Posters/carlasDreamsPoster.png"
 import voltEnergyLogo from "/src/assets/Logos/voltEnergyLogo.png"
 import gogosiDomnita from "/src/assets/Postari/gogosiDomnita.png"
-import noapteMuzeurilorPoster from "/src/assets/Posters/noapteMuzeurilorPoster.png"
+import noapteMuzeurilorPoster from "/src/assets/Posters/noapteaMuzeurilorPoster.png"
 import pingpongLogo from "/src/assets/Logos/pingpongLogo.png"
 import puzzleDomnita from "/src/assets/Postari/puzzleDomnita.png"
 

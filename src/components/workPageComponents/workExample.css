@@ -1,3 +1,76 @@
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+
+    .workExampleContainer{
+    width: 90%;
+    aspect-ratio:1;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    color: transparent;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0,0.5);
+    transition: 1s ease-in-out;
+    }
+    .workExampleContainer:hover , .workExampleContainer:active {
+        color: white;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 10%, rgba(50,50,125,0) 100%);
+    }
+    
+    .workExampleContainer > img{
+        z-index: -1;
+        width: 100%;
+    
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        top: 0;
+    
+    }
+    .workExampleContainer > p {
+        font-size: clamp(15px , 4vw , 30px);
+        font-family: 'druk_wide_boldbold';
+        margin: 0px 5vw 2.5vh 5vw;
+    }
+    
+    
+    .PosterFormat.workExampleContainer{
+        aspect-ratio:4/5;
+    }
+    
+    .VideoFormat.workExampleContainer{
+        aspect-ratio:4/5;
+        box-shadow: none;
+    }
+    
+    .VideoFormat.workExampleContainer:hover 
+    , .VideoFormat.workExampleContainer:active{
+        background: none;
+    }
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+
 .workExampleContainer{
 width: 90%;
 aspect-ratio:1;
@@ -28,9 +101,10 @@ transition: 1s ease-in-out;
 
 }
 .workExampleContainer > p {
-    font-size: clamp(15px , 4vw , 30px);
+    font-size: clamp(15px , 1.5vw , 30px);
     font-family: 'druk_wide_boldbold';
-    margin: 0px 5vw 2.5vh 5vw;
+    text-align: center;
+    margin: 0px 1vw 2.5vh 1vw;
 }
 
 
@@ -46,4 +120,7 @@ transition: 1s ease-in-out;
 .VideoFormat.workExampleContainer:hover 
 , .VideoFormat.workExampleContainer:active{
     background: none;
+}
+
+
 }

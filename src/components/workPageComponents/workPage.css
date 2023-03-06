@@ -1,3 +1,5 @@
+
+@media only screen and (max-width: 767px) {
 .workPageContent{
     width: 100%;
     height: 100%;
@@ -49,4 +51,65 @@
   align-items: center;
   justify-content: start;
   gap: 2.5vh;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+.workPageContent{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.workButtons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+  width: 60%;
+  height: 5vh;
+  border: 1px solid #19194b;
+  border-radius: 3px;
+  overflow: hidden;
+
+
+}
+.workButtons > button {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: clamp(10px,4vw,20px);
+  height: 100%;
+  width: 25%;
+}
+.workBtnActive {
+background-color:#19194b ;
+color: #FFF;
+border: 1px solid #19194b;
+}
+.workBtnInactive{
+
+background-color: rgba(25, 25, 75 , 0.5);
+color: rgba(255, 255, 255 , 0.75);
+border: 1px solid #19194b;
+
+}
+
+.showWork{
+width:90%;
+height: auto;
+display: grid;
+justify-items: center;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
 }
