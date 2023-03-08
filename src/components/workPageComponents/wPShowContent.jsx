@@ -16,7 +16,7 @@ import noapteaMuzeurilorPoster2 from "/src/assets/Posters/noapteaMuzeurilorPoste
 
 import VersuriLogo from "/src/assets/Logos/VersuriLogo.png"
 import FotoLogo from "/src/assets/Logos/FotoLogo.png"
-import PingpongLogo from "/src/assets/Logos/PingpongLogo.png"
+import PingpongLogo from "/src/assets/Logos/pingpongLogo.png"
 
 import IntroMetafarm from '/src/assets/Videos/IntroMetafarm.mp4'
 import IntroMetafarmImage from '/src/assets/Videos/IntroMetafarm.png'
