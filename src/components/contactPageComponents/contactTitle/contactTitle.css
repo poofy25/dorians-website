@@ -1,0 +1,9 @@
+.contactTitle{
+    width: 100%;
+    font-family:sans-serif;
+    font-size: clamp(15px , 6vw , 40px);
+    font-weight: 900;
+}
+.contactTitle > p {
+    margin-top: 0;
+}

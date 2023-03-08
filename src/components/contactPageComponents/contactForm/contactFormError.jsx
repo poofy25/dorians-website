@@ -1,4 +1,4 @@
-import "./contactPage.css"
+import "./contactForm.css"
 
 const succesfullMessage = {
     background : "rgba(0, 255, 0 , .75)",
@@ -18,7 +18,7 @@ function FormError(props) {
         position:"absolute",
         opacity:"0"
     }
-if (props.errorMessage === "Message send succsesfully!"){
+if (props.errorMessage === "Mesajul a fost expediat!"){
 
 colorStyle = succesfullMessage;
 

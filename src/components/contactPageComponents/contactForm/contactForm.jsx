@@ -1,15 +1,15 @@
-import "./contactPage.css"
+import "./contactForm.css"
 import FormError from "./contactFormError.jsx"
 import { useState } from "react"
 
 
 const errorTexts = {
-  succsseful : "Message send succsesfully!",
-  unsuccsseful : "There was a problem and the text has not been sent!",
-  nameError : "Name must not be blank!",
-  emailError : "Invalid mail adress!",
-  messageError : "Message must not be blank!",
-  timeError : "You sent a message in the last 5 minutes, please try again later!"
+  succsseful : "Mesajul a fost expediat!",
+  unsuccsseful : "A apărut o promblema și mesajul nu a fost expediat!",
+  nameError : "Introduceti numele!",
+  emailError : "Adresă email invalida!",
+  messageError : "Introduceti mesajul!",
+  timeError : "Ați trimis un mesaj în ultimele 5 minute, vă rugam să încercați mai tarziu!"
 }
 
 
@@ -52,7 +52,7 @@ function ContactForm() {
 if (templateParams.from_name.length <= 1) return setMessageError(errorTexts.nameError)
 if (templateParams.email_adress.includes('@') === false) return setMessageError(errorTexts.emailError)
 if (templateParams.message.length <= 1) return setMessageError(errorTexts.messageError)
-if (localStorage.getItem("lastFormSent") >= Date.now()/1000 - 10) return setMessageError(errorTexts.timeError)
+if (localStorage.getItem("lastFormSent") >= Date.now()/1000 - 300) return setMessageError(errorTexts.timeError)
 
 
   sendEmail(templateParams);

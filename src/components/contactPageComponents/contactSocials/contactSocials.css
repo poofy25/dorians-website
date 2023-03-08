@@ -1,0 +1,30 @@
+.contactSocialsContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+
+}
+.contactSocialsContainer > p {
+    font-family:sans-serif;
+    font-size: clamp(15px , 6vw , 40px);
+    font-weight: 900;
+}
+
+.contactSocialsBtns{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1vh;
+    filter: invert() brightness(100) grayscale();
+}
+
+.contactSocialsBtns > a {
+  width: 50%;
+}
+.contactSocialsBtns a > img {
+    width: 100%;
+
+}
